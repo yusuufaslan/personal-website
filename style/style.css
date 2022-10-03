@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #283d9e, #070ab3);
+    padding: 0;
+}
+
+.navbar-brand{
+    font-weight: 450;
+    color: white !important;
+}
+
+.navbar-nav li {
+    padding: 0 8px;
+}
+
+.navbar-nav li:hover{
+    background-color: white;
+    color: #070ab3;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 450;
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav li a:hover {
+    transition: 0.5s;
+    color: #070ab3 !important;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+h2 {
+    color: #070ab3;
+}
+
+/*Banner Section*/
+
+#banner {
+    background-image: linear-gradient(to right, #283d9e, #070ab3);
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.promo-title {
+    font-size: 200%;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.profile-img {
+    width: 300px;
+    height: auto;
+    border-radius: 20%;
+}
+
+/*About Section*/
+#about {
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about-paragraph {
+    margin-top: 5%;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Resume Section*/
+#resume {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#resume .col-md-12 {
+    font-size: 125%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#resume .btn-primary {
+    box-shadow: none;
+    padding: 2% 4%;
+    font-size: 80%;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #283d9e, #070ab3);
+}
+
+.resume-img {
+    padding-top: 3%;
+    width: 70%;
+    height: auto;
+}
+
+/*Projects Section*/
+#projects {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+/*Contact Section*/
+#contact {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(228, 228, 228);
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.footer-text-left {
+    /* float: left; */
+    text-align: center;
+}
+
+.footer-text-right {
+    /* float: right; */
+    text-align: center;
+}
+
+footer small {
+    font-size: small;
+}
